@@ -2,5 +2,5 @@
   "version": "0.2",
   "language": "en-US,sv-SE",
   "minWordLength": 0,
-  "words": ["heltalsöverflöde", "ordonotation", "sv"]
+  "words": ["heltalsöverflöde", "mathcal", "ordonotation", "sv"]
 }

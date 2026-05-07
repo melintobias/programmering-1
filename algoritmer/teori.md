@@ -10,7 +10,7 @@ Användningen av pseudokod gör det möjligt att beskriva algoritmer på ett sä
 
 ## 3. När används linjär respektive binär sökning?
 
-Linjär sökning används när data är osorterad eller tillräckligt liten. Binär sökning kräver sorterad data, men är i regel mycket snabbare än linjär sökning, eftersom den halverar sökområdet vid varje steg vilket ger en tidskomplexitet på O(log n) jämfört med linjär sökning som har en tidskomplexitet på O(n).
+Linjär sökning används när data är osorterad eller tillräckligt liten. Binär sökning kräver sorterad data, men är i regel mycket snabbare än linjär sökning, eftersom den halverar sökområdet vid varje steg vilket ger en tidskomplexitet på $\mathcal{O}(\log n)$ jämfört med linjär sökning som har en tidskomplexitet på $\mathcal{O}(n)$.
 
 ## 4. Beskriv kortfattat den binära sökningen med egna ord
 
@@ -28,7 +28,7 @@ Detta element byter därefter plats med det första elementet i den osorterade d
 
 ## 7. Vad innebär tidskomplexitet?
 
-Tidskomplexitet är ett mått på hur antalet operationer som krävs för att exekvera en algoritm växer i förhållande till storleken på indatan. Tidskomplexitet uttrycks vanligtvis med ordonotation (även kallat big O-, stora O- eller O-notation), där exempelvis O(1) representerar konstant tid, O(n) linjär tid och O(n^2) kvadratisk tid.
+Tidskomplexitet är ett mått på hur antalet operationer som krävs för att exekvera en algoritm växer i förhållande till storleken på indatan. Tidskomplexitet uttrycks vanligtvis med ordonotation (även kallat big O-, stora O- eller O-notation), där exempelvis $\mathcal{O}(1)$ representerar konstant tid, $\mathcal{O}(n)$ linjär tid och $\mathcal{O}(n^2)$ kvadratisk tid.
 
 ## 8. Vilka konsekvenser kan en dåligt vald algoritm få?
 
@@ -36,6 +36,6 @@ En dåligt vald algoritm kan leda till ineffektivitet, vilket kan resultera i l�
 
 ## Jämför tidskomplexiteten mellan urvalssortering och bubbelsortering
 
-Både urvalssortering och bubbelsortering har en tidskomplexitet på O(n^2) i det genomsnittliga och värsta fallet, vilket innebär att antalet operationer växer kvadratiskt med storleken på indatan.
+Både urvalssortering och bubbelsortering har en tidskomplexitet på $\mathcal{O}(n^2)$ i det genomsnittliga och värsta fallet, vilket innebär att antalet operationer växer kvadratiskt med storleken på indatan.
 
 <!-- TODO: Lägg till matten -->
